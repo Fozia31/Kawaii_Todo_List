@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(350, 100%, 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 4%;
+}
+.Container{
+    width: 800px;
+    height: 520px;
+    border: 1px solid hsl(350, 100%, 90%) ;
+    background-color: hsl(350, 100%, 90%);
+    border-radius: 16px;
+    justify-items: center;
+    padding: 30px;
+
+}
+.header{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 15px;
+    color: hsl(0, 76%, 20%);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.input-area{
+    position: relative;
+    width: 380px;
+    margin: 0 auto;
+}
+
+.text-area{
+    border-radius: 24px;
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color:  hsl(350, 100%, 94%);
+    border-color: hsl(350, 100%, 94%)  ;
+    margin-right: 10px;
+    padding: 0 45px 0 20px;
+}
+
+.icons .add-sign{
+    border: 3px #ffffff solid;
+    height: 37px;
+    width: 33px;
+    border-radius: 50%;
+    margin-top: -17px;
+    margin-left:66px;
+}
+
+.successfully-added{
+    color: hsl(0, 100%, 20%);
+    margin: 25px auto auto 130px;
+    font-size: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+
+}
+.task-added{
+    width: 380px;
+    height: 40px;
+    border: 1px hsl(350, 100%, 94%) solid;
+    border-radius: 24px;
+    background-color:  hsl(350, 100%, 94%);
+    margin: 11px 11px;
+    color: hsl(0, 0%, 40%);
+    padding: 10px 10px 1px 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.icons{
+    margin: -25px -11px 10px 280px;
+    height: 40px;
+}
+
+.icons button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+    margin-left: 5px;
+    font-size: 22px;
+}
+
+.image img{
+    width: 100px;
+    position: absolute;
+    margin-left: 145px;
+    margin-top: 7px;
+}
